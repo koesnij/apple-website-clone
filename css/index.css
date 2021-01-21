@@ -16,6 +16,7 @@ header {
   left: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
 }
 header .inner {
   width: 1000px;
@@ -26,7 +27,6 @@ header .main-menu {
   justify-content: space-between;
   align-items: center;
   height: 44px;
-  /* background: #000; */
 }
 header .main-menu li {
 }
@@ -60,6 +60,39 @@ header .main-menu li .logo a:hover {
   background: url("../img/logo.on.svg") no-repeat;
   background-size: contain;
   background-position: center;
+}
+header .bag {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  height: 300px;
+  width: 280px;
+  border: 1px solid rgb(185, 185, 190);
+  border-radius: 18px;
+  z-index: 3;
+  background-color: white;
+}
+header .bag.on {
+  display: block;
+}
+header .bag .bag-menu {
+  padding: 10px;
+}
+header .bag .bag-menu .bag--status {
+  height: 80px;
+  border: none;
+}
+header .bag .bag-menu li {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(185, 185, 190);
+  height: 40px;
+  padding: 0 10px;
+}
+header .bag .bag-menu li a {
+  font-weight: 500;
+  color: rgb(35, 129, 255);
 }
 
 /* MAIN SECTION */

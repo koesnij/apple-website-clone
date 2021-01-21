@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- 번역 알림 때문에 임시로 kr -->
+<html lang="kr">
   <head>
     <meta charset="UTF-8" />
     <title>Apple</title>
@@ -13,6 +14,7 @@
     <link rel="icon" href="favicon.png" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <script defer src="index.js"></script>
   </head>
   <body>
     <div class="body__container">
@@ -31,13 +33,23 @@
             <li><a href="#">Music</a></li>
             <li><a href="#">Support</a></li>
             <li>
-              <div class="search"><a href="#">Search</a></div>
+              <div class="btn--search"><a href="#">Search</a></div>
             </li>
             <li>
-              <div class="bag"><a href="#">Bag</a></div>
+              <div id="btn--bag"><a href="#">Bag</a></div>
             </li>
           </ul>
         </nav>
+        <div class="bag">
+          <ul class="bag-menu">
+            <li class="bag--status">Your Bag is empty.</li>
+            <li><a href="#">Bag</a></li>
+            <li><a href="#">Favorites</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Sign in</a></li>
+          </ul>
+        </div>
       </header>
       <!-- HEADER END -->
       <!-- MAIN SECTION -->

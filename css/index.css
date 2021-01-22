@@ -127,6 +127,7 @@ header .bag .bag-menu li a {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 12px;
+  line-height: 1.4;
 }
 .content-detail .content-pricing {
   font-size: 18px;
@@ -165,7 +166,7 @@ header .bag .bag-menu li a {
   display: block;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position-x: center;
   text-indent: -9999px;
 }
 .content-wrapper .bg-iphone-12 {
@@ -177,4 +178,43 @@ header .bag .bag-menu li a {
 .content-wrapper .bg-watch-6 {
   background-image: url("../img/bg-watch-6.jpg");
   height: 70%;
+}
+.section--main .content-wrapper:last-child {
+  margin-bottom: 0px;
+}
+/* GRID SECTION */
+.section--grid {
+  display: grid;
+  grid-template-rows: repeat(3, 600px);
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15px;
+  row-gap: 15px;
+  column-gap: 15px;
+}
+.section--grid .content-wrapper {
+}
+.content-wrapper .content-detail.bottom {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  margin-bottom: 25px;
+}
+.content-img-wrapper.bottom {
+  background-position-y: bottom;
+}
+.content-wrapper .bg-ipad-air {
+  background-image: url("../img/grid-ipad-air.jpg");
+}
+.content-wrapper .bg-fitness {
+  background-image: url("../img/grid-fitness.jpg");
+}
+.content-wrapper .bg-appleone {
+  background-image: url("../img/bg-appleone.jpg");
+  height: 350px;
+}
+.content-wrapper .bg-applecard {
+  background-image: url("../img/bg-applecard.jpg");
+}
+.content-wrapper .bg-appletv {
+  background-image: url("../img/bg-appletv.jpg");
 }

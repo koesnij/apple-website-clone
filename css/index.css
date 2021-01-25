@@ -10,6 +10,10 @@ a {
 }
 
 /* HEADER */
+.inner {
+  width: 1000px;
+  margin: auto;
+}
 header {
   position: sticky;
   top: 0;
@@ -17,10 +21,6 @@ header {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 100;
-}
-header .inner {
-  width: 1000px;
-  margin: auto;
 }
 header .main-menu {
   display: flex;
@@ -217,4 +217,36 @@ header .bag .bag-menu li a {
 }
 .content-wrapper .bg-appletv {
   background-image: url("../img/bg-appletv.jpg");
+}
+/* FOOTER SECTION */
+footer {
+  background-color: rgb(242, 242, 245);
+}
+.detail-info {
+  padding: 30px 0 15px;
+  border-bottom: 1px solid rgb(200, 199, 206);
+}
+.detail-info .description {
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-size: 13px;
+  color: rgb(115, 115, 120);
+  /* background-color: tomato; */
+}
+.site-map {
+  padding: 0 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.site-map .column h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.site-map .column a {
+  display: block;
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 15px;
 }

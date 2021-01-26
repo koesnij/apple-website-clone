@@ -221,6 +221,14 @@ header .bag .bag-menu li a {
 /* FOOTER SECTION */
 footer {
   background-color: rgb(242, 242, 245);
+  padding-bottom: 20px;
+  color: rgb(135, 135, 140);
+}
+footer a {
+  color: #606060;
+}
+footer a:hover {
+  text-decoration: underline;
 }
 .detail-info {
   padding: 30px 0 15px;
@@ -230,8 +238,9 @@ footer {
   margin-bottom: 10px;
   line-height: 1.2;
   font-size: 13px;
-  color: rgb(115, 115, 120);
-  /* background-color: tomato; */
+}
+.detail-info .description a {
+  color: #555;
 }
 .site-map {
   padding: 0 0 10px;
@@ -243,10 +252,47 @@ footer {
   font-weight: 600;
   margin-bottom: 15px;
   margin-top: 25px;
+  color: #555;
 }
 .site-map .column a {
   display: block;
-  color: #555;
   font-size: 14px;
   margin-bottom: 15px;
+}
+.footer {
+  /* color: rgb(115, 115, 120); */
+}
+.footer-shop {
+  padding: 20px 0 15px;
+  border-bottom: 1px solid rgb(200, 199, 206);
+}
+.footer-shop a {
+  color: rgb(35, 129, 255);
+}
+.footer-legal {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+.footer-legal .copyright {
+  float: left;
+}
+.footer-legal .legal-links {
+  display: flex;
+  width: 600px;
+  margin: auto;
+  /* background-color: tomato; */
+}
+.footer-legal .legal-links li {
+  padding: 2px 8px;
+  border-right: 1px solid rgb(200, 199, 206);
+}
+.footer-legal .legal-links li:last-child {
+  border: none;
+}
+.footer-legal .legal-links li a {
+  font-size: 13px;
+}
+.footer-legal .locale-link {
+  float: right;
 }

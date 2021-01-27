@@ -1,0 +1,88 @@
+/* HEADER */
+header .main-menu li a {
+  display: none;
+}
+header .main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .main-menu li a.btn--logo {
+  display: block;
+  height: 44px;
+  width: 18px;
+}
+header .main-menu li .btn--toggle {
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  text-indent: -9999px;
+  background: url("../img/toggle-btn.svg") no-repeat;
+}
+header .main-menu li .btn--bag {
+  display: block;
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  margin-right: 12px;
+  height: 26px;
+}
+/* MAIN SECTION */
+.content-wrapper {
+  height: 548px;
+  margin-bottom: 10px;
+}
+.content-detail .content-title {
+  font-size: 40px;
+}
+.content-detail .content-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+.section--main .content-img-wrapper {
+  background-size: 734px 548px;
+}
+.content-wrapper .bg-iphone-12 {
+  background-image: url("../img/md-iphone-12.jpg");
+}
+.content-wrapper .bg-iphone-12-pro {
+  background-image: url("../img/md-iphone-12-pro.jpg");
+}
+.content-wrapper .bg-watch-6 {
+  background-size: 228px 366px;
+}
+/* GRID SECTION */
+.section--grid {
+  grid-template-rows: repeat(6, 548px);
+  grid-template-columns: repeat(1, 1fr);
+  padding: 10px 0 0;
+  row-gap: 10px;
+  /* background-color: tomato; */
+}
+/* FOOTER SECTION */
+footer {
+  margin-top: 10px;
+  padding: 20px;
+}
+footer .detail-info {
+  padding: 0px;
+}
+footer .description {
+  margin: 0;
+}
+footer .site-map {
+  display: block;
+  margin-top: 20px;
+}
+footer .site-map .column h3 {
+  margin: 0;
+  padding: 11px 0;
+  /* background-color: tomato; */
+  border-bottom: 1px solid rgb(200, 199, 206);
+  font-size: 13px;
+  font-weight: 500;
+}
+footer .site-map .column a {
+  display: none;
+}

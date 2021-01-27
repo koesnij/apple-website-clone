@@ -14,6 +14,11 @@
     <link rel="icon" href="favicon.png" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      media="all and (max-width: 768px)"
+      href="css/index.medium.css"
+    />
     <script defer src="index.js"></script>
   </head>
   <body>
@@ -22,6 +27,7 @@
       <header class="section">
         <nav class="inner">
           <ul class="main-menu">
+            <li><a class="btn--toggle" href="#">Menu</a></li>
             <li><a class="btn--logo" href="#">Apple</a></li>
             <li><a href="#">Mac</a></li>
             <li><a href="#">iPad</a></li>
@@ -31,7 +37,7 @@
             <li><a href="#">Music</a></li>
             <li><a href="#">Support</a></li>
             <li><a class="btn--search" href="#">Search</a></li>
-            <li><a id="btn--bag" href="#">Bag</a></li>
+            <li><a class="btn--bag" href="#">Bag</a></li>
           </ul>
         </nav>
         <div class="bag">
